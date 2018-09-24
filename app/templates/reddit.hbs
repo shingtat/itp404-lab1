@@ -1,0 +1,10 @@
+<h2>List of Reddit Results</h2>
+{{#each model.data.children as |child|}}
+  <ul>
+    <li>Num Comments: {{child.data.num_comments}}</li>
+    <li>Ups: {{child.data.ups}}</li>
+    <li>Downs: {{child.data.downs}}</li>
+    <li>Title: {{child.data.title}}</li>
+    <li>Domain: {{child.data.domain}}</li>
+  </ul>
+{{/each}}

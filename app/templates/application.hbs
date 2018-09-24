@@ -1,5 +1,23 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<header>
+  <h1>Ryan's ITP 404 Lab 1</h1>
+</header>
+
+<nav>
+  {{#link-to "index"}}
+    Home
+  {{/link-to}}
+  {{#link-to "reddit"}}
+    Click here for "Reddit Javascript.json"
+  {{/link-to}}
+</nav>
 
 {{outlet}}
+
+<footer>
+  <p>
+    Ryan's ITP 404 Lab 1
+  </p>
+  <p>
+    &copy; ITP
+  </p>
+</footer>

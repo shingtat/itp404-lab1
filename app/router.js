@@ -7,6 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('reddit');
+  this.route('loading');
 });
 
 export default Router;
